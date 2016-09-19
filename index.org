@@ -18,7 +18,6 @@
 - Descripción del Problema
 - Propuesta de Solucion
 - Factibilidad
-- Propuesta Economica
 
 * Descripción del Problema
   :PROPERTIES:
@@ -110,11 +109,24 @@ Ademas:
   :END:
 
 ** Demostración que se puede hacer
-:PROPERTIES:
-:ARTICLE:  larger
-:END:
 [[http://107.170.225.27/login][Trabajo hecho para termochilca]]
- 
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 600px
+[[file:images/gestion.png]]
+#+END_CENTER
+
+** 
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 800px
+[[file:images/energia.png]]
+#+END_CENTER
+
+** 
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 800px
+[[file:images/excel.png]]
+#+END_CENTER
+
 ** Tecnologias Usadas
 #+BEGIN_CENTER
 #+ATTR_HTML: :width 550px

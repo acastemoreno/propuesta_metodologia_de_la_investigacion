@@ -16,6 +16,13 @@ var SLIDE_CONFIG = {
  
    // Author information
    presenters: [{
+     name: 'Carhuaricra Soto, Richard', 
+     company: '20121067C', 
+     gplus: '', 
+     twitter: '', 
+     www: '', 
+     github: '', 
+   },{
      name: 'Castellano Moreno, Albert Roman', 
      company: '20094091J', 
      gplus: '', 
@@ -43,5 +50,5 @@ var SLIDE_CONFIG = {
      twitter: '', 
      www: '', 
      github: '', 
-   }]
+}]
 };
