@@ -1,0 +1,156 @@
+#+TITLE: Propuesta de Proyecto para Metodologia de la Investigacion
+#+SUBTITLE: Docente: D.Eng. Alberto Coronado Matutti
+#+DATE: 2016/09/19
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: e:t email:nil f:t inline:t num:nil p:nil pri:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:nil todo:t |:t
+#+CREATOR: Emacs 24.4.1 (Org mode 8.2.10)
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:dsadsa
+#+LANGUAGE: es
+#+SELECT_TAGS: export
+
+#+FAVICON: images/uni.png
+#+ICON: images/uni.png
+
+* Contenido
+- Descripción del Problema
+- Propuesta de Solucion
+- Factibilidad
+- Propuesta Economica
+
+* Descripción del Problema
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* 
+El Comité de Operación Económica del Sistema (COES) es el organismo que opera el sistema eléctrico peruano, administra el mercado eléctrico peruano y planifica la transmisién eléctrica del sistema con criterios de economía, calidad y seguridad. 
+
+Tiene una [[http://www.coes.org.pe/dataweb3/2010/djr/baselegal/Norma%20Tecnica%20de%20Calidad%20de%20los%20Servicios%20Electricos.pdf][norma]] que establece criterios, procedimientos y sanciones (pag 26) para las empresas generadoras, distribuidoras y comercializadoras que ofrescan un mal servicio (Interrupciones, problema de armonicos, etc).
+
+** Quién tiene el problema?
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 520px
+[[file:images/enel-logo.png]]
+#+END_CENTER
+
+** Solucion: Inspecciones
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 550px
+[[file:images/inspecciones.jpg]]
+#+END_CENTER
+
+** Solucion: Mantenimiento
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 550px
+[[file:images/mantenimiento.png]]
+#+END_CENTER
+
+** Problema
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 550px
+[[file:images/tiempo.png]]
+#+END_CENTER
+
+** Estado Actual
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 180px
+[[file:images/app.png]]
+#+END_CENTER
+
+** A dónde llega el reporte?
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 550px
+[[file:images/Gmail-correo.png]]
+#+END_CENTER
+
+** Problema
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 500px
+[[file:images/correo-basura.jpg]]
+#+END_CENTER
+
+* Propuesta de Solución
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+** Cloud Computing
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 550px
+[[file:images/cloud.png]]
+#+END_CENTER
+
+** Procesos Necesarios
+Principal Proceso:
+- Recepción y Registro de Reporte enviado por la App Mobile
+- Notificación al Administrador
+- Planificacion de Mantenimiento (tecnicos, horarios, etc)
+- De ser necesario una interrupcion programada: notificación al COES y clientes afectados.
+- Reporte de Mantenimiento
+Ademas:
+- Seguimiento de puntos problematicos
+- Generación de Reportes mensuales al COES
+
+** Tiempo y Propuesta Economica
+- Tiempo: 3 meses
+- Propuesta Economica: S/. 20.000,00
+
+* Factibilidad
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+** Demostración que se puede hacer
+:PROPERTIES:
+:ARTICLE:  larger
+:END:
+[[http://107.170.225.27/login][Trabajo hecho para termochilca]]
+ 
+** Tecnologias Usadas
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 550px
+[[file:images/sql_server.png]]
+#+END_CENTER
+
+** 
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 400px
+[[file:images/postgresql.png]]
+#+END_CENTER
+
+** 
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 150px
+[[file:images/elixir.png]]
+#+END_CENTER
+
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 300px
+[[file:images/phoenix.png]]
+#+END_CENTER
+
+** 
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 400px
+[[file:images/python.png]]
+#+END_CENTER
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 200px
+[[file:images/django.png]]
+#+END_CENTER
+
+* Gracias
+  :PROPERTIES:
+  :SLIDE: thank-you-slide segue
+  :ASIDE: right
+  :ARTICLE: flexbox vleft auto-fadein
+  :END:
